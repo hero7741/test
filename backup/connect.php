@@ -1,0 +1,10 @@
+<?php
+require_once("config.php");
+//Á¬½Ó
+if(!($con=mysqli_connect(HOST,USERNAME,PASSWORD,test))){
+echo mysql_error();}
+//Ñ¡¿â
+
+mysql_query('set names utf8');
+
+?>
